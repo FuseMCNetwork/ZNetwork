@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xxmicloxx</groupId>
+    <artifactId>ZNetwork</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ZNetworkLib</module>
+        <module>ZNetworkServer</module>
+        <module>ZMaster</module>
+        <module>ZNetworkPlugin</module>
+        <module>ZBungeePlugin</module>
+        <module>ZBukkitPlugin</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>sonatype</id>
+            <url>http://oss.sonatype.org/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+</project>
